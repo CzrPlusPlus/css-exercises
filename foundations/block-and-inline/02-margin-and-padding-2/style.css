@@ -3,25 +3,36 @@ body {
   font-family: sans-serif;
 }
 
-.card {
+.card { /* Correct */
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px; 
 }
 
-.title {
+.title { /* Correct */
   background: #e3f4ff;
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding: 8px;
 }
 
-.content {
+.content { /* Correct */
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
-.button-container {
+.button-container { /* Tried changing margins instead of simply using text-align */
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
 }
 
-button {
+button { /* Couldn't figure this out. Tried using display: inline-block */
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
