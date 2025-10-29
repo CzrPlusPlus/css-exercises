@@ -5,6 +5,52 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* Could use flex here to center the children vertically? */
+  display:flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+/* Added CSS */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  /* background-color: aquamarine; */
+}
+
+/* Added CSS */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  /* background-color: aquamarine; */
+}
+
+/* Added CSS */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+/* Added CSS */
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+/* Added CSS */
+a {
+  text-decoration: none;
+  color: gray;
 }
 
 img {
@@ -16,6 +62,10 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /* Added CSS */
+  padding: 5px 10px;
+  /* margin-top: 10px; */
 }
 
 input {
